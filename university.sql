@@ -38,8 +38,7 @@ CREATE TABLE `hosteller` (
 -- Dumping data for table `hosteller`
 --
 
-INSERT INTO `hosteller` (`type1`, `type2`, `reg_no`, `block`, `academic_year`) VALUES
-('AC', 'Four Bed', '15BIT0273', 'k-429', '2018');
+
 
 -- --------------------------------------------------------
 
@@ -61,9 +60,7 @@ CREATE TABLE `leav` (
 -- Dumping data for table `leav`
 --
 
-INSERT INTO `leav` (`reg_no`, `Aa`, `type`, `_from`, `_to`, `place_address`, `reason`) VALUES
-('15BIT0209', 'Proctor', 'Emergency', '12/01/2015', '14/01/2015', 'summer vacation', 'Meerut'),
-('15BIT0273', 'Proctor', 'Home Town', '21-01-2013', '22-01-2013', 'outing', 'chennai');
+
 
 -- --------------------------------------------------------
 
@@ -95,9 +92,7 @@ CREATE TABLE `mess2` (
 -- Dumping data for table `mess2`
 --
 
-INSERT INTO `mess2` (`reg_no`, `block`, `academic_year`, `type`) VALUES
-('15BIT0209', 'P', '2015', 'North'),
-('15BIT0273', 'K', '2017', 'Special Mess');
+
 
 -- --------------------------------------------------------
 
@@ -131,8 +126,6 @@ CREATE TABLE `student` (
 -- Dumping data for table `student`
 --
 
-INSERT INTO `student` (`name`, `contact`, `branch`, `dob`, `nationality`, `gender`, `email`, `address`, `student_reg`, `father_name`, `father_qualification`, `father_contact`, `mother_name`, `mother_qualification`, `mother_contact`, `school`, `board_name`, `intermediate_score`, `year_of_passing`) VALUES
-('Apurva Garg', '9997913115', 'IT', '31-Aug-1997', 'INDIAN', NULL, 'apurva.garg2015@vit.ac.in', 'F-3,J-6,Shastrinagar,Meerut', '15BIT0273', 'Sudhir Garg', 'LLB,LLM', '9412618841', 'Geeta Garg', 'BSc', '8563214785', 'Translam Academy Int', 'CBSE', '94.8%', '2014');
 
 -- --------------------------------------------------------
 
@@ -150,8 +143,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`UserName`, `user_Password`) VALUES
-('apoorv', '54321'),
-('rahul', '54321');
+('admin', '12345');
 
 --
 -- Indexes for dumped tables
